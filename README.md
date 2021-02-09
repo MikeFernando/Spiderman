@@ -1,6 +1,5 @@
 <div align="center">
-  <h1>  </h1>
-  <img src="github/logo-spiderman.svg"> spider man </>
+  <h1> spider man <img src="github/logo-spiderman.svg" > </h1>
 </div>
 <br>
 <div align="center">
