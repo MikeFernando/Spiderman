@@ -24,6 +24,10 @@ header {
     li {
         margin-left: 24px;
     }
+
+    @include responsive() {
+        display: none;
+    }
 }
 
 .logo {
@@ -74,8 +78,55 @@ header {
     }
 }
 
+.bx {
+    width: 48px;
+    height: 48px;
+
+    border-radius: 8px;
+
+    display: none;
+
+    position: relative;
+
+    @include responsive() {
+        display: block;
+
+        &::after {
+            content: "";
+
+            position: absolute;
+            top: 70%;
+            left: 15%;
+
+            width: 70%;
+            height: 5%;
+            border-radius: 5px;
+
+            background-color: #fff;
+        }
+
+        &::before {
+            content: "";
+
+            position: absolute;
+            top: 50%;
+            left: 15%;
+
+            width: 70%;
+            height: 5%;
+            border-radius: 5px;
+
+            background-color: #fff;
+        }
+    }
+}
+
 .nav-social {
     display: flex;
+
+    @include responsive() {
+        display: none;
+    }
 
     svg {
         cursor: pointer;
