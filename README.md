@@ -4,7 +4,7 @@
 </div>
 <br>
 <div align="center">
-  <img src="github/logo-spiderman.gif" >
+  <img src="github/spiderman.gif" >
 </div>
 
 📝 Índices
