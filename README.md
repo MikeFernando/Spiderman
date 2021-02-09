@@ -4,7 +4,8 @@
 </div>
 <br>
 <div align="center">
-  <img src="github/spiderman.gif" >
+  <img src="github/spider.jpg" >
+  <img src="github/spider-2.jpg" >
 </div>
 
 📝 Índices
