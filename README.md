@@ -11,7 +11,6 @@
 <br>
 <div align="center">
   <img src="github/spider.png" >
-  ![Imgur](https://imgur.com/wcsVXRd.gif)
 </div>
 
 📝 Índices
