@@ -10,8 +10,8 @@
 
 <br>
 <div align="center">
-  <img src="github/spider-2.png" >
   <img src="github/spider.png" >
+  ![Imgur](https://imgur.com/wcsVXRd.gif)
 </div>
 
 📝 Índices
