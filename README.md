@@ -10,7 +10,7 @@
 
 <br>
 <div align="center">
-  <img src="github/spider.png" >
+  <img src="github/homen-aranha.gif" >
 </div>
 
 📝 Índices
