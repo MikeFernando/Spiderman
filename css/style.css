@@ -4,7 +4,7 @@
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-family: "Mukta", sans-serif;
 }
 
@@ -47,19 +47,19 @@ p {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 960px) {
   .container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     height: auto;
     overflow: hidden;
   }
@@ -72,11 +72,11 @@ p {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
 .flex {
@@ -91,21 +91,19 @@ p {
 
 .align-items-center {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .spiderman {
-  width: 150%;
-  -webkit-transform: translate3d(-170px, 0, 0);
-          transform: translate3d(-170px, 0, 0);
+  width: 100%;
 }
 
 @media screen and (max-width: 960px) {
   .spiderman {
     width: 100%;
     -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
   }
 }
 
@@ -114,7 +112,7 @@ p {
   padding: 12px 32px;
   border-radius: 3px;
   -webkit-transform: skewX(-10deg);
-          transform: skewX(-10deg);
+  transform: skewX(-10deg);
   -webkit-transition: 0.7s ease;
   transition: 0.7s ease;
   text-transform: uppercase;
@@ -156,7 +154,7 @@ p {
 
 .btn:hover {
   -webkit-transform: skew(-10deg) scale(1.05);
-          transform: skew(-10deg) scale(1.05);
+  transform: skew(-10deg) scale(1.05);
 }
 
 .btn:hover::after {
@@ -172,7 +170,7 @@ p {
   padding: 10px 32px;
   border-radius: 3px;
   -webkit-transform: skewX(-10deg);
-          transform: skewX(-10deg);
+  transform: skewX(-10deg);
   -webkit-transition: 0.7s ease;
   transition: 0.7s ease;
   text-transform: uppercase;
@@ -211,11 +209,11 @@ p {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .bg-video::after {
@@ -226,7 +224,12 @@ p {
   top: 0;
   left: 0;
   display: block;
-  background: linear-gradient(110deg, #0a0c10 25%, rgba(11, 12, 16, 0.8) 50%, #0a0c10 70%);
+  background: linear-gradient(
+    110deg,
+    #0a0c10 25%,
+    rgba(11, 12, 16, 0.8) 50%,
+    #0a0c10 70%
+  );
 }
 
 .bg-loader {
@@ -240,11 +243,11 @@ p {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   overflow: hidden;
   background: linear-gradient(225deg, #ea1d22 0%, #b31317 100%);
 }
@@ -567,11 +570,11 @@ header {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .nav-menu {
@@ -579,11 +582,11 @@ header {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .nav-list {
@@ -632,10 +635,14 @@ header {
   height: 0px;
   border-radius: 2px;
   -webkit-transform: translate3d(-15%, 0, 0);
-          transform: translate3d(-15%, 0, 0);
+  transform: translate3d(-15%, 0, 0);
   -webkit-transition: 0.7s ease;
   transition: 0.7s ease;
-  background: linear-gradient(359.94deg, #e11c21 0.06%, rgba(225, 28, 33, 0) 101.91%);
+  background: linear-gradient(
+    359.94deg,
+    #e11c21 0.06%,
+    rgba(225, 28, 33, 0) 101.91%
+  );
 }
 
 .nav-link:hover {
@@ -708,13 +715,13 @@ header {
 .nav-social svg:hover circle {
   fill: #f02a2f;
   -webkit-transform: translate3d(0, -3px, 0);
-          transform: translate3d(0, -3px, 0);
+  transform: translate3d(0, -3px, 0);
 }
 
 .logo-spiderman {
   fill: transparent;
   -webkit-animation: logo-spiderman 7s ease infinite alternate;
-          animation: logo-spiderman 7s ease infinite alternate;
+  animation: logo-spiderman 7s ease infinite alternate;
 }
 
 @-webkit-keyframes logo-spiderman {
