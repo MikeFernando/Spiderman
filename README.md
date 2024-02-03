@@ -15,7 +15,6 @@
 
 📝 Índices
 - Aprendendo sobre SASS
-- Análise de DIVs
 - Estrutura HTML
 - Biblioteca SVGInject
 - Estrutura CSS com SASS
