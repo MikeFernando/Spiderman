@@ -1,6 +1,6 @@
 <div align="center">
   <img src="github/logo-spiderman.svg" >
-  <h1> Spider-Man: Miles Morales </h1>
+  <h1>Spider-Man: Miles Morales</h1>
 </div>
 <p align="center">
   <a href="https://spiderman-mikefernando.netlify.app/" target="_blank">
